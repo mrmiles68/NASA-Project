@@ -15,7 +15,7 @@
   />
 </head>
 <main>
-<h1>EPIC Pic of the Day!
+<h1>NASA Pic of the Day!
 </h1>
 </main>
 <body>
@@ -24,9 +24,9 @@
         <input id="dateEntered" type="date">
         <button id="getPic" class="icon"><i class="fa fa-search bg-primary text-white" ></i></button>
     </div>
-    <div id="picChosen">Pic Goes Here
-        
-    </div>
+    <img id="picChosen">EPIC Satellite Picture</img>
+    <div id="picCaption">Description:</div>    
+
     </div>
     <br>
     <div class="vidSearch">
@@ -34,10 +34,24 @@
             <input id="dayEntered" type="date">
             <button id="getVid" class="icon"><i class="fa fa-search bg-primary text-white" ></i></button>
         </div>
-        <div id="vidChosen">Vid Goes Here
-            
-        </div>
-        </div>
+        <img id="vidChosen"></img>
+        <div id="vidCaption">Description: </div>
+               </div>
+        
+        <div id = "prevDates"></div>
+        <ul class="savedDates" >Previous Searches:
+          <li  id="dateZro"></li>
+          <li  id="dateOne"></li>
+          <li  id="dateTwo"></li>
+          <li  id="dateTre"></li>  
+          <li  id="dateFor"></li>
+          <li  id="dateFiv"></li>
+          <li  id="dateSix"></li>
+          <li  id="dateSev"></li>
+          <li  id="dateEig"></li>
+          <li  id="dateNin"></li>
+        </ul>
+  </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="script.js"></script>   
